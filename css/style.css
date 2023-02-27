@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --orng:#e67e22;
+    --white: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0px !important;
+}
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: var(--orng);
+}
+h2 {
+    font-size: 45px;
+}
+.heading{
+    margin-bottom: 15px;
+}
+.heading h2{
+   font-weight: 700;
+}
+section{
+    padding: 60px 0px;
+}
+body{
+    background-image: linear-gradient(to right, #ffbe84 , rgb(243 243 243));
+}
+form{
+    border: 5px solid var(--goldern);
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #000;
+}
+form .form-group {
+    margin-bottom: 20px;
+}
+form .form-control {
+    display: block;
+    height: 42px;
+    background-color: #fff;
+    border-radius: unset;
+}
+form .form-group label {
+    color: #ffffff;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.form-control:focus{
+  background-color: unset;
+    outline: unset;
+    box-shadow: unset;
+}
+form button.glbl-btn {
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+}
+form textarea{
+    width: 100%;
+}
+.top_header{
+    background-color: var(--orng);
+    padding: 10px 0;
+}
+.top_header h3{
+    color: var(--white);
+}
+.banner p {
+    font-size: 23px;
+    margin-bottom: 55px;
+}
+.banner .box{
+    width: 100%;
+    background-color: var(--orng);
+    padding: 30px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+.banner .box .glbl-btn {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #000;
+    font-size: 20px;
+    color: #ffffff;
+    width: 90%;
+    text-decoration: none;
+}
+.banner .host-line{
+    padding: 10px;
+    text-align: center;
+    background-color: var(--white);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.banner .host-line h5{
+    font-size: 23px;
+}
+.banner .host-line .fa{
+    color: var(--orng);
+    margin-right: 4px;
+}
+
+
+/* countdown */
+#countdown {
+    width: 465px;
+    height: 160px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    padding: 24px 0;
+}
+#countdown #tiles{
+	position: relative;
+	z-index: 1;
+}
+
+#countdown #tiles > span{
+	width: 92px;
+	max-width: 92px;
+	font: bold 48px 'Droid Sans', Arial, sans-serif;
+	text-align: center;
+	color: #111;
+	background-color: #fff;
+	background-image: -webkit-linear-gradient(top, #fff, #fff); 
+	background-image:  -moz-linear-gradient(top, #fff, #fff);
+	background-image:  -ms-linear-gradient(top, #fff, #fff);
+	background-image:  -o-linear-gradient(top, #fff, #fff);
+	border-top: unset;
+	border-radius: 3px;
+	box-shadow: 0px 0px 12px #5a5a5a;
+	margin: 0 7px;
+	padding: 18px 0;
+	display: inline-block;
+	position: relative;
+}
+
+#countdown #tiles > span:before{
+	content:"";
+	width: 100%;
+	height: 13px;
+
+	display: block;
+	padding: 0 3px;
+	position: absolute;
+	top: 41%; left: -3px;
+	z-index: -1;
+}
+
+#countdown #tiles > span:after{
+	content:"";
+	width: 100%;
+	height: 1px;
+
+	border-top: unset;
+	display: block;
+	position: absolute;
+	top: 48%; left: 0;
+}
+
+#countdown .labels{
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	/* position: absolute; */
+	bottom: 8px;
+}
+
+#countdown .labels li{
+	width: 102px;
+	font: bold 15px 'Droid Sans', Arial, sans-serif;
+	color: var(--white);
+	text-align: center;
+	text-transform: uppercase;
+	display: inline-block;
+    margin-top: 8px;
+}
+#countdown .box h5{
+    color: var(--white);
+}
+
+.couch-info {
+    background-color: #fff;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 4px;
+    padding: 20px 0px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px -10px rgb(0 0 0 / 80%);
+}
+.couch-info p{
+     margin: 0px;
+    color: var(--orng);
+    font-size: 20px;
+    color: #111;
+}
+.couch-info p span{
+    color: var(--orng);
+    padding-left: 5px;
+    font-weight: 400;
+}
+.glbl-btn {
+    background-color: #fa7800;
+    padding: 10px;
+    text-align: center;
+    transform: translateY(-4px);
+    color: #fff;
+    font-size: 23px;
+    width: 68%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+/* counter */
+.counter{
+    background-color: var(--white);
+}
+.counting {
+    color: #ff6f00;
+    font-size: 55px;
+}
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+    background-color: #fff;
+}
+.stats {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.stats h5 {
+    font-weight: 600;
+    color: #ff6f00;
+    font-size: 23px;
+}
+
+
+/* about  */
+.about .glbl-btn {
+    background-color: #fff;
+    color: #000;
+    font-size: 21px;
+    width: 280px;
+    display: inline-block;
+    padding: 15px 0;
+    text-decoration: none;
+    margin-top: 25px;
+}
+.about p{
+    text-align: justify;
+}
+
+/* course contant */
+.course_contant{
+    background-color: var(--white);
+}
+#course_contant{
+    position: relative;
+    margin-top: 40px;
+}
+.course_contant .heading h2{text-align: center;}
+.course_contant .box{
+    text-align: center;
+    border: 2px solid #fa7800;
+    padding: 30px;
+    box-shadow: 0 0 20px 0px rgb(255 194 143);
+}
+.course_contant .box i.fa.fa-youtube-play{
+    font-size: 45px;
+    color: red;
+    margin-bottom: 20px;
+}
+#course_contant span {
+    background-color: #ff6f00;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    line-height: 36px;
+    border-radius: 100%;
+    font-size: 40px;
+    color: #fff;
+}
+#course_contant button{
+    background-color: unset;
+    position: absolute;
+}
+#course_contant  .owl-theme .owl-nav {
+    margin-top: 10px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 30px;
+}
+#course_contant button.owl-next{
+    top: 30%;
+    left: -75px;
+}
+#course_contant button.owl-prev{
+    top: 30%;
+    right: -75px;
+}
+.course_contant .glbl-btn {
+    background-color: var(--orng);
+    text-decoration: none;
+    margin-top: 30px;
+    display: inline-block;
+    width: 200px;
+}
+.course_contant .glbl-btn:hover{
+    color: unset;
+}
+
+
+/* how to use  */
+.how_to_use ul{
+    margin-top: 20px;
+}
+.how_to_use ul li {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.how_to_use .glbl-btn {
+    background-color: var(--orng);
+    text-decoration: none;
+    margin-top: 30px;
+    display: inline-block;
+    width: 200px;
+}
+.how_to_use .glbl-btn:hover{
+    color: unset;
+}
